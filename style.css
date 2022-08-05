@@ -8,29 +8,34 @@ main {
     background-image: url("assets\images\fondo_playamdp.jpg");
     background-repeat: no-repeat;
     position: relative;
-    width: 85%;
+    width: 95%;
     height: 610px;
     margin-left: auto;
     margin-right: auto;
 }
 #card {
-  border: solid black;
-  padding: 1% 20% 1% 20%;
-  margin-top: 0%;
-  margin-bottom: 0%;
-  margin-left: auto;
-  margin-right: auto;
-  background-color:gray;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  border: solid white;
+  padding: 2% 2% 2% 2%;
+  margin: auto;
+  background-color:gray;
   width: 90%;
+  border-radius: 10px;
+  
+ 
 }
 .d-flex.flex-row.mb-3 img {
-  display: inline-flex;
-  margin: 5%;
+  width: auto;
+  height: 150px;
+  object-fit: cover;
+  margin: 4px;
+  padding: 4px;
   border-radius: 10%;
-  max-width: 30%;
+ 
 }
   h1 {
     color: white;
@@ -42,8 +47,11 @@ main {
 
   h2 {
     padding: 10px;
-    background-color:rgba(17, 16, 16, 0.1)
+    background-color:rgba(17, 16, 16, 0.1);
+    font-family: Impact, serif;
+
   }  
+  
 
   a:hover {
     color: gray; 
@@ -56,15 +64,11 @@ main {
     font-style: italic;
   }
 
-footer {
-  margin-top:20%;
-  text-align: right;
-  font-size: smaller;
-}
+
 
 article {
   border: solid white;
-  margin: 0 20% 0 20%;
+  margin: 0 10% 0 10%;
 }
 article p, li{
   text-align: justify;
@@ -74,4 +78,14 @@ article p, li{
 h5 {
   margin-top: 4%;
   text-decoration-line: underline;
+}
+@media (max-width: 800px) {
+  #card img {
+    width: 100%;
+  }
+}
+@media (max-width: 600px) {
+  #card img {
+    width: 100%;
+  }
 }
