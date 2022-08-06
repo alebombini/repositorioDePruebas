@@ -1,7 +1,7 @@
 body {
     color: black;
     text-align: center;
-    background-color: burlywood;
+    background-color: #bfd9bf;
     
   }
 main {
@@ -25,17 +25,23 @@ main {
   background-color:gray;
   width: 90%;
   border-radius: 10px;
-  
- 
+}
+
+.collapse.navbar-collapse{
+  margin-left: 60%;
 }
 .d-flex.flex-row.mb-3 img {
   width: auto;
   height: 150px;
   object-fit: cover;
-  margin: 4px;
+  margin: 15px 8px 8px 8px;
   padding: 4px;
   border-radius: 10%;
  
+}
+.figure-caption{
+  color: white;
+  font-weight: bold;
 }
   h1 {
     color: white;
@@ -52,19 +58,18 @@ main {
 
   }  
   
-
+  /*
   a:hover {
     color: gray; 
   }
   a:visited {
     color: white
   }
+  */
   .nav-link.active {
     font-weight: bolder;
     font-style: italic;
   }
-
-
 
 article {
   border: solid white;
@@ -78,6 +83,12 @@ article p, li{
 h5 {
   margin-top: 4%;
   text-decoration-line: underline;
+}
+footer .img-thumbnail {
+  margin: 15px 8px 8px 8px;
+  padding: 4px;
+  border-radius: 10%;
+
 }
 @media (max-width: 800px) {
   #card img {
