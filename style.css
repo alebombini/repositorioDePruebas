@@ -1,7 +1,8 @@
 body {
     color: black;
     text-align: center;
-    background-color: #a9d896;
+    background-color:rgba(235, 237, 243, 0.95);
+  /*background-image: url(https://img.freepik.com/foto-gratis/confeti-estrella-brillante-sobre-fondo-acuarela-pastel-abstracto-colorido_53876-98173.jpg?w=2000);*/
     font-family: Arial, Helvetica, sans-serif ;
     
   }
@@ -12,9 +13,10 @@ body {
     border: solid white; 
     
   }
+
   a.nav-link.active:hover {
-    background-color: #a9d896;
- 
+    background-color: rgba(95, 110, 157, 0.993);
+    
   }
 
 main {
@@ -37,12 +39,38 @@ main {
   width: 90%;
   border-radius: 10px;
 }
+.navbar.navbar-expand-lg.bg-success{
+  background-color:rgba(102, 111, 213, 0.772) !important;
+} 
 
-.collapse.navbar-collapse{
+.collapse.navbar-collapse{    /*links navbar*/
   margin-left: 70%;
 }
+h1 {
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+  background-color: black;
+  padding: 10px;
+  }
 
-.d-flex.flex-row.mb-3 img {
+h2 {
+  padding: 10px;
+  background-color:rgba(17, 16, 16, 0.1);
+  font-family: Impact, serif;
+}  
+h5 {
+  margin-top: 4%;
+  color: rgb(255, 255, 255);
+  background-color: gray;
+  /*text-shadow: rgb(122, 122, 122) 4px 3px 0px;*/
+} 
+
+h6 {
+  font-weight: bold;
+}
+
+.d-flex.flex-row.mb-3 img {   /*fotolinks a secciones*/
   width: auto;
   height: 150px;
   object-fit: cover;
@@ -51,30 +79,12 @@ main {
   border-radius: 10%;
  
 }
-.figure-caption{
+
+
+.figure-caption{               /*texto de las fotos links*/
   color: white;
   font-weight: bold;
 }
-h1 {
-    color: white;
-    font-size: 30px;
-    font-weight: bold;
-    background-color: black;
-    padding: 10px;
-    }
-
-
-h2 {
-    padding: 10px;
-    background-color:rgba(17, 16, 16, 0.1);
-    font-family: Impact, serif;
-
-  }  
-  
-.nav-link.active {
-    font-weight: bolder;
-    font-style: italic;
-  }
 
 article {
   border: solid white;
@@ -85,9 +95,23 @@ article p, li{
   margin-left: 3%;
   margin-right: 3%;
 }
-h5 {
-  margin-top: 4%;
-  text-decoration-line: underline;
+
+#footer{
+  text-align: end; 
+ 
+}
+.subir {
+  color:whitesmoke;
+  background-color:  rgba(95, 110, 157, 0.993);
+  padding: 10px;
+  margin: 10px;
+  border: 1px solid;
+  border-radius: 6px;
+
+}
+.subir:hover{
+  color: rgba(95, 110, 157, 0.993);
+  background-color: whitesmoke;
 }
 
 @media (max-width: 800px) {
